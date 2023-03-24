@@ -1,0 +1,26 @@
+@font-face {
+    font-family: NunitoSans;
+    src: url('../assets/fonts/NunitoSans-SemiBold.ttf');
+}
+@font-face {
+    font-family: NunitoSansReg;
+    src: url('../assets/fonts/NunitoSans-Regular.ttf');
+}
+
+:root {
+    --background: hsl(0, 0%, 100%);
+    --nav-background: hsl(0, 0%, 100%);
+    --text-primary: hsl(0, 0%, 0%);
+    --text-secondary: hsl(0, 0%, 52%);
+    --border: #696969;
+    --shadow: 7px 15px 13px -4px #ffffff1b;
+    --main-font: NunitoSans;
+    --second-font: NunitoSansReg;
+}
+
+[data-theme='DARK'] {
+    --background: #212e37;
+    --nav-background: #2b3743;
+    --text-primary: hsl(0, 0%, 100%);
+    --text-secondary: hsl(0, 0%, 52%);;
+}
