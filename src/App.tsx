@@ -23,7 +23,7 @@ function App() {
       <NavBar />
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={
+          <Route path='/*' element={
             <div>
               <Search />
               <CountriesList />
